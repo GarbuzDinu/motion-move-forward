@@ -22,7 +22,7 @@ const Contact = () => {
                 <Phone className="h-6 w-6 text-primary" />
               </div>
               <h3 className="font-semibold mb-2 text-card-foreground">Phone</h3>
-              <p className="text-muted-foreground">+1 (555) 123-4567</p>
+              <p className="text-muted-foreground">+40 (792) 904 835</p>
             </CardContent>
           </Card>
           
@@ -32,7 +32,7 @@ const Contact = () => {
                 <Mail className="h-6 w-6 text-primary" />
               </div>
               <h3 className="font-semibold mb-2 text-card-foreground">Email</h3>
-              <p className="text-muted-foreground">info@4motionrecovery.com</p>
+              <p className="text-muted-foreground">Contact@4motion.ro</p>
             </CardContent>
           </Card>
           
@@ -52,7 +52,7 @@ const Contact = () => {
                 <Clock className="h-6 w-6 text-primary" />
               </div>
               <h3 className="font-semibold mb-2 text-card-foreground">Hours</h3>
-              <p className="text-muted-foreground">Mon-Fri: 8AM-8PM</p>
+              <p className="text-muted-foreground">Mon-Fri: 7AM-9PM</p>
             </CardContent>
           </Card>
         </div>
