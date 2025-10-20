@@ -3,6 +3,8 @@ import Services from "@/components/Services";
 import Mission from "@/components/Mission";
 import Team from "@/components/Team";
 import Contact from "@/components/Contact";
+import Faq from "@/components/Faq";
+import Procedures from "@/components/Procedures";
 
 const Index = () => {
   return (
@@ -12,6 +14,8 @@ const Index = () => {
       <Mission />
       <Team />
       <Contact />
+      <Faq />
+      <Procedures />
       
       <footer className="bg-foreground text-background py-8">
         <div className="container mx-auto px-4 text-center">
