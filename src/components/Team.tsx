@@ -1,62 +1,28 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Stethoscope, Heart, Activity, UserRound, Zap, Users } from "lucide-react";
+import { Stethoscope, Activity } from "lucide-react";
 
 const teamMembers = [
   {
-    name: "Dr. Alexandru Popescu",
+    name: "Dr. Adrian Vasile",
     role: "Medical Director",
     specialization: "Orthopedic Specialist",
-    description: "Over 15 years of experience in orthopedic medicine and sports injury recovery.",
+    description:
+      "Over 15 years of experience in orthopedic medicine and sports injury recovery.",
     icon: Stethoscope,
-    image: "/placeholder.svg",
-    initials: "AP"
+    image: "src/assets/AdrianVasile.jpg", // ✅ use a high-resolution square image (min 500x500)
+    initials: "AV",
   },
   {
-    name: "Dr. Maria Ionescu",
+    name: "Dr. Bora Razvan",
     role: "Sports Medicine Specialist",
     specialization: "Athletic Recovery Expert",
-    description: "Dedicated to helping athletes return to peak performance through innovative treatments.",
+    description:
+      "Dedicated to helping athletes return to peak performance through innovative treatments.",
     icon: Activity,
-    image: "/placeholder.svg",
-    initials: "MI"
+    image: "src/assets/BoraRazvan.jpg", // ✅ use a high-resolution square image (min 500x500)
+    initials: "BR",
   },
-  {
-    name: "Laura Gheorghe",
-    role: "Head Physiotherapist",
-    specialization: "Physical Therapy",
-    description: "Expert in one-on-one therapy sessions tailored to each patient's unique needs.",
-    icon: Heart,
-    image: "/placeholder.svg",
-    initials: "LG"
-  },
-  {
-    name: "Andrei Dumitru",
-    role: "Kinesiotherapy Specialist",
-    specialization: "Movement & Mobility",
-    description: "Specializes in restoring mobility and reducing pain through targeted exercises.",
-    icon: Users,
-    image: "/placeholder.svg",
-    initials: "AD"
-  },
-  {
-    name: "Elena Cristea",
-    role: "Recovery Therapist",
-    specialization: "Advanced Equipment",
-    description: "Manages cutting-edge recovery technology including hyperbaric chamber and cryosauna.",
-    icon: Zap,
-    image: "/placeholder.svg",
-    initials: "EC"
-  },
-  {
-    name: "Dr. Mihai Stanciu",
-    role: "Infiltration Specialist",
-    specialization: "Advanced Procedures",
-    description: "Performs precise infiltrations and modern recovery procedures with expertise.",
-    icon: UserRound,
-    image: "/placeholder.svg",
-    initials: "MS"
-  }
 ];
 
 const Team = () => {
@@ -68,12 +34,13 @@ const Team = () => {
             Meet Our Expert Team
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Our dedicated professionals combine years of experience with the latest medical innovations
-            to provide you with exceptional care and personalized treatment.
+            Our dedicated professionals combine years of experience with the
+            latest medical innovations to provide you with exceptional care and
+            personalized treatment.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {teamMembers.map((member, index) => {
             const IconComponent = member.icon;
             return (
@@ -82,29 +49,40 @@ const Team = () => {
                 className="group hover:shadow-card-hover transition-all duration-300 animate-fade-in border-border/50 bg-card"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
-                <CardHeader className="text-center pb-4">
-                  <div className="flex justify-center mb-4">
-                    <div className="relative">
-                      <div className="absolute inset-0 bg-gradient-to-br from-primary to-secondary rounded-full blur-sm opacity-50 group-hover:opacity-75 transition-opacity"></div>
-                      <Avatar className="h-24 w-24 relative border-4 border-card">
-                        <AvatarImage src={member.image} alt={member.name} />
-                        <AvatarFallback className="bg-gradient-to-br from-primary to-secondary text-primary-foreground text-xl font-semibold">
+                <CardHeader className="text-center pb-8">
+                  <div className="flex justify-center mb-8">
+                    <div className="relative rounded-full p-[4px] bg-gradient-to-br from-primary to-secondary">
+                      <Avatar className="h-44 w-44 rounded-full border-4 border-card overflow-hidden">
+                        <AvatarImage
+                          src={member.image}
+                          alt={member.name}
+                          className="object-cover w-full h-full"
+                        />
+                        <AvatarFallback className="bg-gradient-to-br from-primary to-secondary text-primary-foreground text-3xl font-semibold">
                           {member.initials}
                         </AvatarFallback>
                       </Avatar>
                     </div>
                   </div>
-                  <div className="space-y-1">
-                    <h3 className="text-xl font-bold text-foreground">{member.name}</h3>
-                    <p className="text-primary font-semibold">{member.role}</p>
+
+                  <div className="space-y-2">
+                    <h3 className="text-2xl font-bold text-foreground">
+                      {member.name}
+                    </h3>
+                    <p className="text-primary font-semibold text-lg">
+                      {member.role}
+                    </p>
                   </div>
                 </CardHeader>
+
                 <CardContent className="text-center space-y-3">
                   <div className="flex items-center justify-center gap-2 text-secondary">
-                    <IconComponent className="w-5 h-5" />
-                    <span className="text-sm font-medium">{member.specialization}</span>
+                    <IconComponent className="w-6 h-6" />
+                    <span className="text-base font-medium">
+                      {member.specialization}
+                    </span>
                   </div>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
+                  <p className="text-muted-foreground text-base leading-relaxed">
                     {member.description}
                   </p>
                 </CardContent>
