@@ -1,6 +1,8 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Stethoscope, Activity } from "lucide-react";
+import AVImage from "@/assets/AdrianVasile.jpg";
+import BRImage from "@/assets/BoraRazvan.jpg";
 
 const teamMembers = [
   {
@@ -10,7 +12,7 @@ const teamMembers = [
     description:
       "Over 15 years of experience in orthopedic medicine and sports injury recovery.",
     icon: Stethoscope,
-    image: "src/assets/AdrianVasile.jpg", // ✅ use a high-resolution square image (min 500x500)
+    image: AVImage, // ✅ correct usage
     initials: "AV",
   },
   {
@@ -20,7 +22,7 @@ const teamMembers = [
     description:
       "Dedicated to helping athletes return to peak performance through innovative treatments.",
     icon: Activity,
-    image: "src/assets/BoraRazvan.jpg", // ✅ use a high-resolution square image (min 500x500)
+    image: BRImage, // ✅ correct usage
     initials: "BR",
   },
 ];
