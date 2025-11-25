@@ -3,24 +3,29 @@ import { HelpCircle, ChevronDown } from "lucide-react";
 
 const faqs = [
   {
-    question: "What conditions do you treat?",
+    question: "Ce afecțiuni tratăm?",
     answer:
-      "We specialize in orthopedic and sports medicine recovery, including post-surgical rehab, joint pain, and athletic injuries.",
+      "În cadrul cabinetului nostru oferim evaluare și recuperare funcțională pentru o gamă extinsă de afecțiuni musculo-scheletale și neurologice. Intervenim atât în leziuni acute — precum entorse, luxații, rupturi ligamentare sau tendinite — cât și în disfuncții cronice, inclusiv posturale, precum platfusul, deformările piciorului, dezechilibre musculare sau orice tip de rigiditate articulară ori musculară. Asigurăm programe de recuperare postoperatorie, adaptate fiecărui stadiu de vindecare, și intervenții orientate spre prevenție, adresate persoanelor care doresc să reducă riscul de accidentare și să își optimizeze funcționalitatea generală. Abordarea noastră integrează principii de kinetoterapie și fizioterapie moderne, cu obiectivul de a restabili mobilitatea, forța și calitatea mișcării.",
   },
   {
-    question: "Do I need a referral to start treatment?",
+    question: "Dacă lucrăm cu casa de asigurări?",
     answer:
-      "No referral is necessary. You can book a consultation directly with our specialists to begin your recovery journey.",
+      "Nu colaborăm cu Casa Națională de Asigurări de Sănătate. Totuși, putem emite facturi pentru servicii medicale, inclusiv pentru proceduri de kinetoterapie și fizioterapie, în vederea decontării prin polițe de asigurare privată, în funcție de condițiile prevăzute de asiguratorul pacientului.",
   },
   {
-    question: "What should I bring to my first appointment?",
+    question: "Dacă lucrăm cu copii?",
     answer:
-      "Please bring your ID, insurance information, and any medical documents relevant to your condition (e.g. imaging or physician notes).",
+      "Da, lucrăm cu copii, cu condiția ca aceștia să fie suficient de mari pentru a participa la ședințele de recuperare fără prezența părintelui în sala de terapie. Nu preluăm sugari sau copii foarte mici (în jurul vârstei de 5 ani sau mai mici), deoarece dinamica ședințelor necesită independență și cooperare directă între terapeut și pacient, pentru a asigura eficiența programului de recuperare.",
   },
   {
-    question: "Do you accept insurance?",
+    question: "Avem nevoie de trimitere sau recomandare de la medic?",
     answer:
-      "Yes, we accept most major insurance providers. Contact us to confirm coverage and eligibility for your treatment.",
+      "Pentru a iniția în mod corect orice program de recuperare, este esențial să existe un diagnostic precis. Avem nevoie fie de un RMN, fie de o evaluare realizată de un medic specialist — de recuperare medicală sau ortoped — pentru a stabili cu exactitate afecțiunea și pentru a structura intervenția terapeutică în deplină siguranță. În cazul în care pacientul nu dispune de aceste documente, colaborăm cu medici ortopezi, specialiști în traumatologie și recuperare sportivă, disponibili în cadrul cabinetului nostru, astfel încât procesul de evaluare să poată fi realizat fără dificultăți.",
+  },
+    {
+    question: "Cum decurge o ședință la voi?",
+    answer:
+      "O ședință în cadrul cabinetului nostru durează aproximativ o oră și se desfășoară exclusiv individual, în regim unu-la-unu, fără sesiuni de grup. Programul combină, în funcție de necesitățile pacientului, proceduri de fizioterapie și exerciții de kinetoterapie, fiecare etapă fiind supravegheată atent de terapeut. Dispunem de echipamente complete pentru gimnastică medicală — benzi elastice, biciclete, TRX, rower, spaliere și alte dispozitive funcționale — precum și de aparatură modernă de fizioterapie, precum laser, tecar, electroterapie sau crioterapie. Pacientului nu îi rămâne decât să se prezinte la cabinet, iar noi ne ocupăm de structura și implementarea întregului program de recuperare.",
   },
 ];
 
