@@ -40,10 +40,10 @@ const Services = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Our Services
+            Serviciile noastre
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Cutting-edge technology and personalized care for your complete recovery
+            Tehnologie de ultimă generație și îngrijire personalizată pentru recuperarea dumneavoastră completă
           </p>
         </div>
         

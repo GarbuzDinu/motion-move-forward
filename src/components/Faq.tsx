@@ -22,7 +22,7 @@ const faqs = [
     answer:
       "Pentru a iniția în mod corect orice program de recuperare, este esențial să existe un diagnostic precis. Avem nevoie fie de un RMN, fie de o evaluare realizată de un medic specialist — de recuperare medicală sau ortoped — pentru a stabili cu exactitate afecțiunea și pentru a structura intervenția terapeutică în deplină siguranță. În cazul în care pacientul nu dispune de aceste documente, colaborăm cu medici ortopezi, specialiști în traumatologie și recuperare sportivă, disponibili în cadrul cabinetului nostru, astfel încât procesul de evaluare să poată fi realizat fără dificultăți.",
   },
-    {
+  {
     question: "Cum decurge o ședință la voi?",
     answer:
       "O ședință în cadrul cabinetului nostru durează aproximativ o oră și se desfășoară exclusiv individual, în regim unu-la-unu, fără sesiuni de grup. Programul combină, în funcție de necesitățile pacientului, proceduri de fizioterapie și exerciții de kinetoterapie, fiecare etapă fiind supravegheată atent de terapeut. Dispunem de echipamente complete pentru gimnastică medicală — benzi elastice, biciclete, TRX, rower, spaliere și alte dispozitive funcționale — precum și de aparatură modernă de fizioterapie, precum laser, tecar, electroterapie sau crioterapie. Pacientului nu îi rămâne decât să se prezinte la cabinet, iar noi ne ocupăm de structura și implementarea întregului program de recuperare.",
@@ -35,11 +35,8 @@ const FAQ = () => {
       <div className="container mx-auto">
         <div className="max-w-3xl mx-auto text-center animate-slide-in">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Frequently Asked Questions
+            Intreabari frecevente
           </h2>
-          <p className="text-lg text-muted-foreground mb-12 leading-relaxed">
-            Got questions? We’ve got answers. Here are some of the most common things we get asked about our recovery process and services.
-          </p>
         </div>
 
         <div className="grid gap-6 animate-fade-in">

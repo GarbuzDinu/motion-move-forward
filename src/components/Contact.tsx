@@ -8,10 +8,10 @@ const Contact = () => {
       <div className="container mx-auto">
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Start Your Recovery Journey
+            Începeți călătoria de recuperare
           </h2>
           <p className="text-xl text-white/90 max-w-2xl mx-auto">
-            Contact us today to schedule your personalized consultation
+            Contactați-ne astăzi pentru a programa o consultație personalizată
           </p>
         </div>
         
@@ -62,7 +62,7 @@ const Contact = () => {
             size="lg"
             className="bg-white text-primary hover:bg-white/90 text-lg px-10 py-6 shadow-lg"
           >
-            Schedule Your Consultation
+            Programează-ți consultația
           </Button>
         </div>
       </div>

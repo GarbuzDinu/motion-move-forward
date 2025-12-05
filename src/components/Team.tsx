@@ -33,12 +33,12 @@ const Team = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-            Meet Our Expert Team
+            Faceți cunoștință cu echipa noastră de experți
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Our dedicated professionals combine years of experience with the
-            latest medical innovations to provide you with exceptional care and
-            personalized treatment.
+            Profesioniștii noștri dedicați combină anii de experiență cu cele
+            mai recente inovații medicale pentru a vă oferi îngrijire
+            excepțională și tratament personalizat.
           </p>
         </div>
 

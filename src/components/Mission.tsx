@@ -8,18 +8,17 @@ const Mission = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-slide-in">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Our Mission
+              Misiunea noastra
             </h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              At 4Motion Recovery, we combine professionalism with medical innovation 
-              to provide each patient with an efficient, safe, and comfortable recovery process.
-            </p>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Our team of orthopedic and sports medicine specialists work alongside 
-              dedicated therapists to create treatment plans tailored to your unique needs.
+              4 Motion este un centru medical format din o echipa
+              multidisciplinara formata din: medici de recuperare si
+              reabilitare, neurologi, ortopezi, kinetoterapeuti si
+              fizioterapeuti, fondat din dorința de a redefini modul în care
+              privim sănătatea fizică.
             </p>
           </div>
-          
+
           <div className="space-y-6 animate-fade-in">
             <Card className="p-6 border-l-4 border-l-primary shadow-card hover:shadow-card-hover transition-shadow">
               <div className="flex items-start gap-4">
@@ -28,15 +27,15 @@ const Mission = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-2 text-card-foreground">
-                    Patient-Centered Care
+                    Îngrijire centrată pe pacient
                   </h3>
                   <p className="text-muted-foreground">
-                    Every treatment plan is personalized to your specific needs and recovery goals
+                    Fiecare plan de tratament este personalizat pentru nevoile dumneavoastră specifice și obiectivele de recuperare
                   </p>
                 </div>
               </div>
             </Card>
-            
+
             <Card className="p-6 border-l-4 border-l-secondary shadow-card hover:shadow-card-hover transition-shadow">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-lg bg-secondary/10">
@@ -44,15 +43,15 @@ const Mission = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-2 text-card-foreground">
-                    Expert Team
+                    Echipa de experti
                   </h3>
                   <p className="text-muted-foreground">
-                    Orthopedic specialists and experienced therapists dedicated to your recovery
+                    Specialiști în ortopedie și terapeuți cu experiență dedicați recuperării dumneavoastră
                   </p>
                 </div>
               </div>
             </Card>
-            
+
             <Card className="p-6 border-l-4 border-l-accent shadow-card hover:shadow-card-hover transition-shadow">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-lg bg-accent/10">
@@ -60,10 +59,10 @@ const Mission = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-2 text-card-foreground">
-                    Modern Facilities
+                    Facilități moderne
                   </h3>
                   <p className="text-muted-foreground">
-                    State-of-the-art equipment and advanced procedures in a comfortable environment
+                    Echipamente de ultimă generație și proceduri avansate într-un mediu confortabil
                   </p>
                 </div>
               </div>
