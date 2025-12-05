@@ -1,16 +1,24 @@
 import { Link, useLocation } from "react-router-dom";
 import { Home, Info, Phone, CreditCard } from "lucide-react";
-import Logo from "@/assets/logo.jpeg"; // your logo
+import { useTranslation } from "react-i18next";
+import Logo from "@/assets/logo.jpeg";
 
 export default function Menu() {
   const location = useLocation();
+  const { t, i18n } = useTranslation();
+  const currentLang = i18n.language; // get current language
 
-  const menuItems = [
-    { title: "Home", path: "/", icon: Home },
-    { title: "About", path: "/about", icon: Info },
-    { title: "Prices", path: "/prices", icon: CreditCard },
-    { title: "Contact", path: "/contact", icon: Phone },
-  ];
+
+
+const menuItems = [
+  { title: t("menu.home"), path: "/", icon: Home },
+  { title: t("menu.about"), path: "/about", icon: Info },
+  { title: t("menu.prices"), path: "/prices", icon: CreditCard },
+  { title: t("menu.contact"), path: "/contact", icon: Phone },
+];
+
+
+  const languages = ["ro", "en"];
 
   return (
     <nav className="w-full border-b border-border bg-card/80 backdrop-blur supports-[backdrop-filter]:bg-card/60">
@@ -20,11 +28,11 @@ export default function Menu() {
           <img
             src={Logo}
             alt="4Motion Recovery Logo"
-            className="h-12 max-h-12 w-auto object-contain" // increased height slightly
+            className="h-12 max-h-12 w-auto object-contain"
           />
         </Link>
 
-        {/* Right: Menu Links */}
+        {/* Right: Menu Links + Language Switcher */}
         <div className="flex items-center gap-4">
           {menuItems.map((item) => {
             const Icon = item.icon;
@@ -36,10 +44,9 @@ export default function Menu() {
                 to={item.path}
                 className={`
                   flex items-center gap-2 px-3 py-2 rounded-md transition-all text-sm font-medium
-                  ${
-                    isActive
-                      ? "bg-primary/10 text-primary shadow-sm"
-                      : "text-muted-foreground hover:text-foreground hover:bg-accent/40"
+                  ${isActive
+                    ? "bg-primary/10 text-primary shadow-sm"
+                    : "text-muted-foreground hover:text-foreground hover:bg-accent/40"
                   }
                 `}
               >
@@ -48,6 +55,23 @@ export default function Menu() {
               </Link>
             );
           })}
+
+          {/* Language Switcher styled like menu links */}
+          {languages.map((lang) => (
+            <button
+              key={lang}
+              onClick={() => i18n.changeLanguage(lang)}
+              className={`
+                flex items-center gap-1 px-3 py-2 rounded-md text-sm font-medium transition-all
+                ${currentLang === lang
+                  ? "bg-primary/10 text-primary shadow-sm"
+                  : "text-muted-foreground hover:text-foreground hover:bg-accent/40"
+                }
+              `}
+            >
+              {lang.toUpperCase()}
+            </button>
+          ))}
         </div>
       </div>
     </nav>

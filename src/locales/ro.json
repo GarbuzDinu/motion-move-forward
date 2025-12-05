@@ -1,0 +1,153 @@
+{
+  "hero": {
+    "title": "4Motion Recovery",
+    "subtitle": "Recâștigă mobilitatea. Redu durerea. Îmbunătățește-ți sănătatea.",
+    "description": "Servicii integrate și personalizate de recuperare medicală cu tehnologie de ultimă generație",
+    "learnMore": "Aflați mai multe",
+    "bookConsultation": "Programează o consultație"
+  },
+  "menu": {
+    "home": "Acasă",
+    "about": "Despre",
+    "prices": "Prețuri",
+    "contact": "Contact"
+  },
+  "mission": {
+    "title": "Misiunea noastră",
+    "description": "4 Motion este un centru medical format dintr-o echipă multidisciplinară: medici de recuperare și reabilitare, neurologi, ortopezi, kinetoterapeuți și fizioterapeuți, fondat din dorința de a redefini modul în care privim sănătatea fizică.",
+    "cards": {
+      "patientCentered": {
+        "title": "Îngrijire centrată pe pacient",
+        "description": "Fiecare plan de tratament este personalizat pentru nevoile dumneavoastră specifice și obiectivele de recuperare."
+      },
+      "expertTeam": {
+        "title": "Echipa de experți",
+        "description": "Specialiști în ortopedie și terapeuți cu experiență dedicați recuperării dumneavoastră."
+      },
+      "modernFacilities": {
+        "title": "Facilități moderne",
+        "description": "Echipamente de ultimă generație și proceduri avansate într-un mediu confortabil."
+      }
+    }
+  },
+  "faq": {
+    "title": "Întrebări frecvente",
+    "q1": "Ce afecțiuni tratăm?",
+    "a1": "În cadrul cabinetului nostru oferim evaluare și recuperare funcțională pentru o gamă extinsă de afecțiuni musculo-scheletale și neurologice. Intervenim atât în leziuni acute — precum entorse, luxații, rupturi ligamentare sau tendinite — cât și în disfuncții cronice, inclusiv posturale, precum platfusul, deformările piciorului, dezechilibre musculare sau orice tip de rigiditate articulară ori musculară. Asigurăm programe de recuperare postoperatorie, adaptate fiecărui stadiu de vindecare, și intervenții orientate spre prevenție, adresate persoanelor care doresc să reducă riscul de accidentare și să își optimizeze funcționalitatea generală. Abordarea noastră integrează principii de kinetoterapie și fizioterapie moderne, cu obiectivul de a restabili mobilitatea, forța și calitatea mișcării.",
+    "q2": "Dacă lucrăm cu casa de asigurări?",
+    "a2": "Nu colaborăm cu Casa Națională de Asigurări de Sănătate. Totuși, putem emite facturi pentru servicii medicale, inclusiv pentru proceduri de kinetoterapie și fizioterapie, în vederea decontării prin polițe de asigurare privată, în funcție de condițiile prevăzute de asiguratorul pacientului.",
+    "q3": "Dacă lucrăm cu copii?",
+    "a3": "Da, lucrăm cu copii, cu condiția ca aceștia să fie suficient de mari pentru a participa la ședințele de recuperare fără prezența părintelui în sala de terapie. Nu preluăm sugari sau copii foarte mici (în jurul vârstei de 5 ani sau mai mici), deoarece dinamica ședințelor necesită independență și cooperare directă între terapeut și pacient, pentru a asigura eficiența programului de recuperare.",
+    "q4": "Avem nevoie de trimitere sau recomandare de la medic?",
+    "a4": "Pentru a iniția în mod corect orice program de recuperare, este esențial să existe un diagnostic precis. Avem nevoie fie de un RMN, fie de o evaluare realizată de un medic specialist — de recuperare medicală sau ortoped — pentru a stabili cu exactitate afecțiunea și pentru a structura intervenția terapeutică în deplină siguranță. În cazul în care pacientul nu dispune de aceste documente, colaborăm cu medici ortopezi, specialiști în traumatologie și recuperare sportivă, disponibili în cadrul cabinetului nostru, astfel încât procesul de evaluare să poată fi realizat fără dificultăți.",
+    "q5": "Cum decurge o ședință la voi?",
+    "a5": "O ședință în cadrul cabinetului nostru durează aproximativ o oră și se desfășoară exclusiv individual, în regim unu-la-unu, fără sesiuni de grup. Programul combină, în funcție de necesitățile pacientului, proceduri de fizioterapie și exerciții de kinetoterapie, fiecare etapă fiind supravegheată atent de terapeut. Dispunem de echipamente complete pentru gimnastică medicală — benzi elastice, biciclete, TRX, rower, spaliere și alte dispozitive funcționale — precum și de aparatură modernă de fizioterapie, precum laser, tecar, electroterapie sau crioterapie. Pacientului nu îi rămâne decât să se prezinte la cabinet, iar noi ne ocupăm de structura și implementarea întregului program de recuperare."
+  },
+  "team": {
+    "title": "Faceți cunoștință cu echipa noastră de experți",
+    "description": "Profesioniștii noștri dedicați combină anii de experiență cu cele mai recente inovații medicale pentru a vă oferi îngrijire excepțională și tratament personalizat.",
+    "adrian": {
+      "name": "Dr. Adrian Vasile",
+      "role": "Director Medical",
+      "specialization": "Specialist Ortopedie",
+      "description": "Peste 15 ani de experiență în medicina ortopedică și recuperarea leziunilor sportive."
+    },
+    "bora": {
+      "name": "Dr. Bora Razvan",
+      "role": "Specialist Medicină Sportivă",
+      "specialization": "Expert Recuperare Atletica",
+      "description": "Dedicat să ajute sportivii să revină la performanța maximă prin tratamente inovatoare."
+    }
+  },
+  "services": {
+    "title": "Serviciile noastre",
+    "description": "Tehnologie de ultimă generație și îngrijire personalizată pentru recuperarea dumneavoastră completă",
+    "hyperbaric": {
+      "title": "Cameră hiperbarică",
+      "description": "Terapie avansată cu oxigen pentru accelerarea vindecării și reducerea inflamației"
+    },
+    "cryosauna": {
+      "title": "Cryosauna",
+      "description": "Crioterapie totală pentru ameliorarea durerii și recuperare rapidă"
+    },
+    "tecar": {
+      "title": "Terapie TECAR",
+      "description": "Tratament de ultimă generație cu radiofrecvență pentru vindecarea țesuturilor profunde"
+    },
+    "infiltrations": {
+      "title": "Infiltrații",
+      "description": "Injecții terapeutice precise realizate de specialiști ortopezi"
+    },
+    "electrotherapy": {
+      "title": "Electroterapie",
+      "description": "Stimulare electrică avansată pentru recuperarea musculară și gestionarea durerii"
+    },
+    "oneonone": {
+      "title": "Terapie unu-la-unu",
+      "description": "Ședințe personalizate de kinetoterapie și fizioterapie"
+    }
+  },
+  "contact": {
+    "title": "Începeți călătoria de recuperare",
+    "subtitle": "Contactați-ne astăzi pentru a programa o consultație personalizată",
+    "phone": {
+      "label": "Telefon",
+      "value": "+40 (792) 904 835"
+    },
+    "email": {
+      "label": "Email",
+      "value": "4motionrecovery@gmail.com"
+    },
+    "location": {
+      "label": "Locație",
+      "value": "Bulevardul Expoziției 101 (Mega Image)"
+    },
+    "hours": {
+      "label": "Program",
+      "value": "Lun-Vin: 7:00-21:00 Sam: 8:00-16:00"
+    },
+    "button": "Programează-ți consultația"
+  },
+  "prices": {
+    "title": "LISTĂ PREȚURI",
+    "description": "Tarife pentru serviciile noastre medicale, fizioterapie, kinetoterapie și abonamente speciale.",
+    "note": "Programarea se face cu cel puțin 4 ore înainte iar anularea cu minim 4 ore, altfel se consideră efectuată.",
+    "services": {
+      "title": "Servicii",
+      "evaluation": "EVALUARE",
+      "medicalConsult": "CONSULT MEDICAL",
+      "physiotherapy": "ȘEDINȚĂ FIZIOTERAPIE",
+      "kinesiotherapy": "ȘEDINȚĂ KINETOTERAPIE",
+      "sportMassage": "MASAJ SPORTIV",
+      "cryosauna": "ȘEDINȚĂ CRIOSAUNĂ",
+      "boots": "ȘEDINȚĂ BOOTS",
+      "hyperbaricChamber": "ȘEDINȚĂ CAMERA HIPERBARA"
+    },
+    "ortho": {
+      "title": "Medicină / Ortopedie",
+      "consult": "Consult medic",
+      "reconsult": "Reconsult",
+      "upperSplint": "Montare atelă membru superior",
+      "lowerSplint": "Montare atelă membru inferior",
+      "circularCast": "Montare ghips circular",
+      "elasticBandage": "Montare fâșă elastică",
+      "universalBandage": "Montare bandaj universal",
+      "sutureRemoval": "Ablatie fire sutură",
+      "dressing": "Montare pansament",
+      "castRemoval": "Suprimare ghips",
+      "vascoInfiltration": "Infiltrație vascoelastică (genunchi, umăr, șold)",
+      "prpInfiltration": "Infiltrație PRP (plasmă îmbogățită în trombocite)"
+    },
+    "subscriptions": {
+      "sportMassage10": "ABONAMENT 10 ȘEDINȚE MASAJ SPORTIV*",
+      "kinesiotherapy10": "ABONAMENT 10 ȘEDINȚE KINETOTERAPIE + FIZIOTERAPIE*",
+      "cryosauna10": "ABONAMENT 10 ȘEDINȚE CRIOSAUNĂ*",
+      "fullCombo10": "ABONAMENT 10 ȘEDINȚE KINETOTERAPIE + FIZIOTERAPIE + CRIOSAUNĂ*",
+      "hyperbaric10": "ABONAMENT 10 ȘEDINȚE CAMERA HIPERBARA",
+      "discount15": "discount 15% inclus",
+      "discount5": "discount 5% inclus",
+      "discount22_5": "discount 22,5% inclus",
+      "discount20": "Discount 20% inclus"
+    }
+  }
+}

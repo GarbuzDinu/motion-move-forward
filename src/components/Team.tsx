@@ -3,47 +3,46 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Stethoscope, Activity } from "lucide-react";
 import AVImage from "@/assets/AdrianVasile.jpg";
 import BRImage from "@/assets/BoraRazvan.jpg";
+import { useTranslation } from "react-i18next";
 
-const teamMembers = [
+const teamMembersData = [
   {
-    name: "Dr. Adrian Vasile",
-    role: "Medical Director",
-    specialization: "Orthopedic Specialist",
-    description:
-      "Over 15 years of experience in orthopedic medicine and sports injury recovery.",
+    name: "team.adrian.name",
+    role: "team.adrian.role",
+    specialization: "team.adrian.specialization",
+    description: "team.adrian.description",
     icon: Stethoscope,
-    image: AVImage, // ✅ correct usage
+    image: AVImage,
     initials: "AV",
   },
   {
-    name: "Dr. Bora Razvan",
-    role: "Sports Medicine Specialist",
-    specialization: "Athletic Recovery Expert",
-    description:
-      "Dedicated to helping athletes return to peak performance through innovative treatments.",
+    name: "team.bora.name",
+    role: "team.bora.role",
+    specialization: "team.bora.specialization",
+    description: "team.bora.description",
     icon: Activity,
-    image: BRImage, // ✅ correct usage
+    image: BRImage,
     initials: "BR",
   },
 ];
 
 const Team = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="py-24 px-4 bg-muted/30">
       <div className="container mx-auto">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-            Faceți cunoștință cu echipa noastră de experți
+            {t("team.title")}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Profesioniștii noștri dedicați combină anii de experiență cu cele
-            mai recente inovații medicale pentru a vă oferi îngrijire
-            excepțională și tratament personalizat.
+            {t("team.description")}
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          {teamMembers.map((member, index) => {
+          {teamMembersData.map((member, index) => {
             const IconComponent = member.icon;
             return (
               <Card
@@ -57,7 +56,7 @@ const Team = () => {
                       <Avatar className="h-44 w-44 rounded-full border-4 border-card overflow-hidden">
                         <AvatarImage
                           src={member.image}
-                          alt={member.name}
+                          alt={t(member.name)}
                           className="object-cover w-full h-full"
                         />
                         <AvatarFallback className="bg-gradient-to-br from-primary to-secondary text-primary-foreground text-3xl font-semibold">
@@ -69,10 +68,10 @@ const Team = () => {
 
                   <div className="space-y-2">
                     <h3 className="text-2xl font-bold text-foreground">
-                      {member.name}
+                      {t(member.name)}
                     </h3>
                     <p className="text-primary font-semibold text-lg">
-                      {member.role}
+                      {t(member.role)}
                     </p>
                   </div>
                 </CardHeader>
@@ -81,11 +80,11 @@ const Team = () => {
                   <div className="flex items-center justify-center gap-2 text-secondary">
                     <IconComponent className="w-6 h-6" />
                     <span className="text-base font-medium">
-                      {member.specialization}
+                      {t(member.specialization)}
                     </span>
                   </div>
                   <p className="text-muted-foreground text-base leading-relaxed">
-                    {member.description}
+                    {t(member.description)}
                   </p>
                 </CardContent>
               </Card>

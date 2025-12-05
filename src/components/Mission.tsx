@@ -1,21 +1,20 @@
 import { Card } from "@/components/ui/card";
 import { Heart, Users, Award } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const Mission = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="py-20 px-4 bg-muted/30">
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-slide-in">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Misiunea noastra
+              {t("mission.title")}
             </h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              4 Motion este un centru medical format din o echipa
-              multidisciplinara formata din: medici de recuperare si
-              reabilitare, neurologi, ortopezi, kinetoterapeuti si
-              fizioterapeuti, fondat din dorința de a redefini modul în care
-              privim sănătatea fizică.
+              {t("mission.description")}
             </p>
           </div>
 
@@ -27,10 +26,10 @@ const Mission = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-2 text-card-foreground">
-                    Îngrijire centrată pe pacient
+                    {t("mission.cards.patientCentered.title")}
                   </h3>
                   <p className="text-muted-foreground">
-                    Fiecare plan de tratament este personalizat pentru nevoile dumneavoastră specifice și obiectivele de recuperare
+                    {t("mission.cards.patientCentered.description")}
                   </p>
                 </div>
               </div>
@@ -43,10 +42,10 @@ const Mission = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-2 text-card-foreground">
-                    Echipa de experti
+                    {t("mission.cards.expertTeam.title")}
                   </h3>
                   <p className="text-muted-foreground">
-                    Specialiști în ortopedie și terapeuți cu experiență dedicați recuperării dumneavoastră
+                    {t("mission.cards.expertTeam.description")}
                   </p>
                 </div>
               </div>
@@ -59,10 +58,10 @@ const Mission = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-2 text-card-foreground">
-                    Facilități moderne
+                    {t("mission.cards.modernFacilities.title")}
                   </h3>
                   <p className="text-muted-foreground">
-                    Echipamente de ultimă generație și proceduri avansate într-un mediu confortabil
+                    {t("mission.cards.modernFacilities.description")}
                   </p>
                 </div>
               </div>

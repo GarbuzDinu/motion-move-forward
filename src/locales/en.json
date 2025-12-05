@@ -1,0 +1,153 @@
+{
+  "hero": {
+    "title": "4Motion Recovery",
+    "subtitle": "Regain Mobility. Reduce Pain. Improve Your Health.",
+    "description": "Integrated and personalized medical recovery services with state-of-the-art technology",
+    "learnMore": "Learn More",
+    "bookConsultation": "Book Consult"
+  },
+  "menu": {
+    "home": "Home",
+    "about": "About",
+    "prices": "Prices",
+    "contact": "Contact"
+  },
+  "mission": {
+    "title": "Our Mission",
+    "description": "4Motion is a medical center formed by a multidisciplinary team: rehabilitation doctors, neurologists, orthopedists, kinesiotherapists and physiotherapists, founded to redefine how we approach physical health.",
+    "cards": {
+      "patientCentered": {
+        "title": "Patient-Centered Care",
+        "description": "Every treatment plan is personalized for your specific needs and recovery goals."
+      },
+      "expertTeam": {
+        "title": "Expert Team",
+        "description": "Orthopedic specialists and experienced therapists dedicated to your recovery."
+      },
+      "modernFacilities": {
+        "title": "Modern Facilities",
+        "description": "State-of-the-art equipment and advanced procedures in a comfortable environment."
+      }
+    }
+    },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": "What conditions do we treat?",
+    "a1": "We provide evaluation and functional recovery for a wide range of musculoskeletal and neurological conditions. We address both acute injuries — such as sprains, dislocations, ligament tears, or tendinitis — and chronic dysfunctions, including postural issues, foot deformities, muscle imbalances, or any joint/muscle stiffness. Postoperative recovery programs are tailored to each stage of healing, with preventive interventions aimed at reducing injury risk and optimizing overall function. Our approach integrates modern physiotherapy and kinesiotherapy principles to restore mobility, strength, and movement quality.",
+    "q2": "Do you work with the national health insurance?",
+    "a2": "We do not collaborate with the National Health Insurance House. However, we can issue invoices for medical services, including physiotherapy and kinesiotherapy procedures, for reimbursement via private insurance, depending on the patient's insurer requirements.",
+    "q3": "Do you work with children?",
+    "a3": "Yes, we work with children who are old enough to participate in therapy sessions independently. We do not accept infants or very young children (around 5 years or younger) due to the need for cooperation during one-on-one sessions.",
+    "q4": "Do I need a referral from a doctor?",
+    "a4": "To properly start a recovery program, an accurate diagnosis is essential. We require either an MRI or an evaluation by a medical specialist—rehabilitation doctor or orthopedist—to determine the condition and structure the therapy safely. If the patient does not have these documents, we collaborate with in-house orthopedic and trauma specialists to ensure proper evaluation.",
+    "q5": "What happens during a session?",
+    "a5": "A session lasts about one hour and is always individual. Depending on patient needs, physiotherapy and kinesiotherapy exercises are combined and closely supervised. Our facility includes medical gym equipment — elastic bands, bikes, TRX, rowers, wall bars — and modern physiotherapy devices such as laser, tecar, electrotherapy, or cryotherapy. The patient just needs to attend, and we handle the structured recovery program."
+  },
+  "team": {
+    "title": "Meet Our Expert Team",
+    "description": "Our dedicated professionals combine years of experience with the latest medical innovations to provide you with exceptional care and personalized treatment.",
+    "adrian": {
+      "name": "Dr. Adrian Vasile",
+      "role": "Medical Director",
+      "specialization": "Orthopedic Specialist",
+      "description": "Over 15 years of experience in orthopedic medicine and sports injury recovery."
+    },
+    "bora": {
+      "name": "Dr. Bora Razvan",
+      "role": "Sports Medicine Specialist",
+      "specialization": "Athletic Recovery Expert",
+      "description": "Dedicated to helping athletes return to peak performance through innovative treatments."
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "State-of-the-art technology and personalized care for your complete recovery",
+    "hyperbaric": {
+      "title": "Hyperbaric Chamber",
+      "description": "Advanced oxygen therapy to accelerate healing and reduce inflammation"
+    },
+    "cryosauna": {
+      "title": "Cryosauna",
+      "description": "Whole-body cryotherapy for pain relief and faster recovery"
+    },
+    "tecar": {
+      "title": "TECAR Therapy",
+      "description": "State-of-the-art radiofrequency treatment for deep tissue healing"
+    },
+    "infiltrations": {
+      "title": "Infiltrations",
+      "description": "Precise therapeutic injections by orthopedic specialists"
+    },
+    "electrotherapy": {
+      "title": "Electrotherapy",
+      "description": "Advanced electrical stimulation for muscle recovery and pain management"
+    },
+    "oneonone": {
+      "title": "One-on-One Therapy",
+      "description": "Personalized kinesiotherapy and physiotherapy sessions"
+    }
+  },
+  "prices": {
+    "title": "Price List",
+    "description": "Rates for our medical, physiotherapy, kinesiotherapy services and special subscriptions.",
+    "services": {
+      "title": "Services",
+      "evaluation": "Evaluation",
+      "medicalConsult": "Medical Consultation",
+      "physiotherapy": "Physiotherapy Session",
+      "kinesiotherapy": "Kinesiotherapy Session",
+      "sportMassage": "Sports Massage",
+      "cryosauna": "Cryosauna Session",
+      "boots": "Boots Session",
+      "hyperbaricChamber": "Hyperbaric Chamber Session"
+    },
+    "ortho": {
+      "title": "Medical / Orthopedic",
+      "consult": "Doctor Consultation",
+      "reconsult": "Reconsultation",
+      "upperSplint": "Upper Limb Splint",
+      "lowerSplint": "Lower Limb Splint",
+      "circularCast": "Circular Cast",
+      "elasticBandage": "Elastic Bandage",
+      "universalBandage": "Universal Bandage",
+      "sutureRemoval": "Suture Removal",
+      "dressing": "Dressing Application",
+      "castRemoval": "Cast Removal",
+      "vascoInfiltration": "Viscoelastic Injection (knee, shoulder, hip)",
+      "prpInfiltration": "PRP Injection (platelet-rich plasma)"
+    },
+    "subscriptions": {
+      "sportMassage10": "10 Sessions Sports Massage*",
+      "kinesiotherapy10": "10 Sessions Kinesiotherapy + Physiotherapy*",
+      "cryosauna10": "10 Sessions Cryosauna*",
+      "fullCombo10": "10 Sessions Kinesiotherapy + Physiotherapy + Cryosauna*",
+      "hyperbaric10": "10 Sessions Hyperbaric Chamber",
+      "discount15": "15% discount included",
+      "discount5": "5% discount included",
+      "discount22_5": "22.5% discount included",
+      "discount20": "20% discount included"
+    },
+    "note": "Appointments must be made at least 4 hours in advance. Cancellations require a minimum of 4 hours notice, otherwise the session is considered completed."
+  },
+  "contact": {
+    "title": "Start Your Recovery Journey",
+    "subtitle": "Contact us today to schedule a personalized consultation",
+    "phone": {
+      "label": "Phone",
+      "value": "+40 (792) 904 835"
+    },
+    "email": {
+      "label": "Email",
+      "value": "4motionrecovery@gmail.com"
+    },
+    "location": {
+      "label": "Location",
+      "value": "Bulevardul Expoziției 101 (Mega Image)"
+    },
+    "hours": {
+      "label": "Hours",
+      "value": "Mon-Fri: 7AM-9PM Sat: 8AM-4PM"
+    },
+    "button": "Book Your Consultation"
+  }
+}
