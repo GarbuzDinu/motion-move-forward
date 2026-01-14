@@ -111,7 +111,7 @@
   "prices": {
     "title": "LISTĂ PREȚURI",
     "description": "Tarife pentru serviciile noastre medicale, fizioterapie, kinetoterapie și abonamente speciale.",
-    "note": "Programarea se face cu cel puțin 4 ore înainte iar anularea cu minim 4 ore, altfel se consideră efectuată.",
+    "note": "Programarea se face cu cel puțin 12 ore înainte iar anularea cu minim 12 ore, altfel se consideră efectuată.",
     "services": {
       "title": "Servicii",
       "evaluation": "EVALUARE",

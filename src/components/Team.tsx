@@ -4,6 +4,7 @@ import { Stethoscope, Activity } from "lucide-react";
 import AVImage from "@/assets/AdrianVasile.jpg";
 import BRImage from "@/assets/BoraRazvan.jpg";
 import { useTranslation } from "react-i18next";
+import teamBg from "@/assets/team.jpg"; // or another image
 
 const teamMembersData = [
   {
@@ -30,15 +31,26 @@ const Team = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="py-24 px-4 bg-muted/30">
+    <section className="py-4 px-4 bg-muted/30">
       <div className="container mx-auto">
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-            {t("team.title")}
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            {t("team.description")}
-          </p>
+        <div className="relative mb-20 rounded-2xl overflow-hidden animate-fade-in">
+          {/* Background */}
+          <div
+            className="absolute inset-0 bg-cover bg-top"
+            style={{ backgroundImage: `url(${teamBg})` }}
+          >
+            <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-secondary/80" />
+          </div>
+
+          {/* Content */}
+          <div className="relative z-10 py-48 px-6 text-center">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
+              {t("team.title")}
+            </h2>
+            <p className="text-lg text-white/90 max-w-2xl mx-auto">
+              {t("team.description")}
+            </p>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">

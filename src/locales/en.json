@@ -127,7 +127,7 @@
       "discount22_5": "22.5% discount included",
       "discount20": "20% discount included"
     },
-    "note": "Appointments must be made at least 4 hours in advance. Cancellations require a minimum of 4 hours notice, otherwise the session is considered completed."
+    "note": "Appointments must be made at least 12 hours in advance. Cancellations require a minimum of 12 hours notice, otherwise the session is considered completed."
   },
   "contact": {
     "title": "Start Your Recovery Journey",
