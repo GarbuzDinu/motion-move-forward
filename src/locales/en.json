@@ -59,25 +59,25 @@
       "description": "Dedicated to helping athletes return to peak performance through innovative treatments."
     },
     "barbu": {
-      "name": "Dr. Barbu Dominic",
+      "name": "Barbu Dominic",
       "role": "Physiotherapy Specialist",
       "specialization": "Athletic Recovery Expert",
       "description": "Passionate about what I do, I work with care and dedication for each patient, using modern, tailored techniques in a relaxed and trustworthy environment to ensure effective recovery."
     },
     "ioana": {
-      "name": "Dr. Zamfirescu Ioana",
+      "name": "Zamfirescu Ioana",
       "role": "Kinesiotherapy Specialist",
       "specialization": "Athletic Recovery Expert",
       "description": "I am here to turn kinesiotherapy into confident steps toward success. Together, we will explore every possible approach to help you regain mobility and strength, with patience, attention, and plenty of positive energy."
     },
     "mihai": {
-      "name": "Dr. Cîrstea Mihai",
+      "name": "Cîrstea Mihai",
       "role": "Physiotherapy Specialist",
       "specialization": "Athletic Recovery Expert",
       "description": "I have gained years of experience and learned that perseverance and determination are the keys to progress. Thanks to my dedication, I have become the therapist I am today—ready to offer each patient personal attention, customized solutions, and long-lasting results."
     },
     "catalin": {
-      "name": "Dr. Radu Cătălin",
+      "name": "Radu Cătălin",
       "role": "Physiotherapy Specialist",
       "specialization": "Athletic Recovery Expert",
       "description": "With over 10 years of experience in medical recovery and recognized for my professionalism, I am here to address patients’ concerns by providing personalized treatment programs."
@@ -145,11 +145,13 @@
       "kinesiotherapy10": "10 Sessions Kinesiotherapy + Physiotherapy*",
       "cryosauna10": "10 Sessions Cryosauna*",
       "fullCombo10": "10 Sessions Kinesiotherapy + Physiotherapy + Cryosauna*",
-      "hyperbaric10": "10 Sessions Hyperbaric Chamber",
+      "hyperbaric10": "10 Sessions Hyperbaric Chamber*",
       "discount15": "15% discount included",
       "discount5": "5% discount included",
       "discount22_5": "22.5% discount included",
-      "discount20": "20% discount included"
+      "discount20": "20% discount included",
+      "discount10": "10% discount included",
+      "fizeoterapie10": "10 Sessions Physiotherapy"
     },
     "note": "Appointments must be made at least 12 hours in advance. Cancellations require a minimum of 12 hours notice, otherwise the session is considered completed."
   },

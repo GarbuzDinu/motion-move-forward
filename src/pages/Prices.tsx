@@ -63,8 +63,13 @@ const subscriptionsData = [
     note: "prices.subscriptions.discount15",
   },
   {
+    title: "prices.subscriptions.fizeoterapie10",
+    price: "2.700 lei",
+    note: "prices.subscriptions.discount10",
+  },
+  {
     title: "prices.subscriptions.kinesiotherapy10",
-    price: "5100 LEI",
+    price: "5.100 LEI",
     note: "prices.subscriptions.discount15",
   },
   {

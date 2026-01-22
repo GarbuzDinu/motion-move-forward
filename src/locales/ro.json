@@ -59,25 +59,25 @@
       "description": "Pasiunea mea este să transform provocările corpului în rezultate vizibile. Fiecare pacient primește atenție personalizată pentru a câștiga confortul și încrederea în propriul corp."
     },
     "barbu": {
-      "name": "Dr. Barbu Dominic",
+      "name": "Barbu Dominic",
       "role": "Specialist Fizioterapeut",
       "specialization": "Expert Recuperare Atletica",
       "description": "Pasionat de ceea ce fac, lucrez cu atenție și dedicare pentru fiecare pacient, folosind tehnici moderne și adaptate, într-o atmosferă relaxată și de încredere, pentru o recuperare eficientă."
     },
     "ioana": {
-      "name": "Dr. Zamfirescu Ioana",
+      "name": "Zamfirescu Ioana",
       "role": "Specializare Kinetoterapeut",
       "specialization": "Expert Recuperare Atletica",
       "description": "Sunt aici pentru a transforma kinetoterapia în pasi siguri spre succes. Vom încerca împreună orice variantă care să te ajute să-ți recapeți mobilitatea și forța, cu răbdare, atenție și multă energie pozitivă."
     },
     "mihai": {
-      "name": "Dr. Cîrstea Mihai",
+      "name": "Cîrstea Mihai",
       "role": "Specialist Fizioterapeut",
       "specialization": "Expert Recuperare Atletica",
       "description": "Am acumulat ani de experiență și am învățat că perseverența și încăpățânarea sunt cheia progresului. Datorită dedicării mele, am ajuns astăzi terapeutul care sunt, pregătit să ofer fiecărui pacient atenție, soluții personalizate și rezultate de durată."
     },
     "catalin": {
-      "name": "Dr. Radu ⁠Cătălin",
+      "name": "Radu ⁠Cătălin",
       "role": "Specialist Fizioterapeut",
       "specialization": "Expert Recuperare Atletica",
       "description": "Cu peste 10 ani de experiență în domeniul recuperării medicale, recunoscut pentru profesionalism, sunt aici pentru problemele pacientilor, oferind programe personalizate."
@@ -168,11 +168,13 @@
       "kinesiotherapy10": "ABONAMENT 10 ȘEDINȚE KINETOTERAPIE + FIZIOTERAPIE*",
       "cryosauna10": "ABONAMENT 10 ȘEDINȚE CRIOSAUNĂ*",
       "fullCombo10": "ABONAMENT 10 ȘEDINȚE KINETOTERAPIE + FIZIOTERAPIE + CRIOSAUNĂ*",
-      "hyperbaric10": "ABONAMENT 10 ȘEDINȚE CAMERA HIPERBARA",
+      "hyperbaric10": "ABONAMENT 10 ȘEDINȚE CAMERA HIPERBARA*",
+      "fizeoterapie10": "ABONAMENT 10 ȘEDINȚE FIZIOTERAPIE*",
       "discount15": "discount 15% inclus",
       "discount5": "discount 5% inclus",
       "discount22_5": "discount 22,5% inclus",
-      "discount20": "Discount 20% inclus"
+      "discount20": "Discount 20% inclus",
+      "discount10": "Discount 10% inclus"
     }
   }
 }
