@@ -26,13 +26,15 @@ const Hero = () => {
           {t("hero.description")}
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button
-            size="lg"
-            className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-6 shadow-lg"
-          >
-            {t("hero.bookConsultation")}
-            <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
+          <Link to="/contact">
+            <Button
+              size="lg"
+              className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-6 shadow-lg"
+            >
+              {t("hero.bookConsultation")}
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
+          </Link>
           <Link to="/about">
             <Button
               size="lg"
