@@ -48,15 +48,39 @@
     "description": "Profesioniștii noștri dedicați combină anii de experiență cu cele mai recente inovații medicale pentru a vă oferi îngrijire excepțională și tratament personalizat.",
     "adrian": {
       "name": "Dr. Adrian Vasile",
-      "role": "Director Medical",
+      "role": "Specialist Ortopedie",
       "specialization": "Specialist Ortopedie",
-      "description": "Peste 15 ani de experiență în medicina ortopedică și recuperarea leziunilor sportive."
+      "description": "Consider ca fiecare pacient merită să se miște fără durere, de aceea vom găsi cele mai bune soluții pentru problema ta, cu răbdare și voință."
     },
     "bora": {
       "name": "Dr. Bora Razvan",
-      "role": "Specialist Medicină Sportivă",
+      "role": "Specialist Ortopedie",
+      "specialization": "Specialist Ortopedie",
+      "description": "Pasiunea mea este să transform provocările corpului în rezultate vizibile. Fiecare pacient primește atenție personalizată pentru a câștiga confortul și încrederea în propriul corp."
+    },
+    "barbu": {
+      "name": "Dr. Barbu Dominic",
+      "role": "Specialist Fizioterapeut",
       "specialization": "Expert Recuperare Atletica",
-      "description": "Dedicat să ajute sportivii să revină la performanța maximă prin tratamente inovatoare."
+      "description": "Pasionat de ceea ce fac, lucrez cu atenție și dedicare pentru fiecare pacient, folosind tehnici moderne și adaptate, într-o atmosferă relaxată și de încredere, pentru o recuperare eficientă."
+    },
+    "ioana": {
+      "name": "Dr. Zamfirescu Ioana",
+      "role": "Specializare Kinetoterapeut",
+      "specialization": "Expert Recuperare Atletica",
+      "description": "Sunt aici pentru a transforma kinetoterapia în pasi siguri spre succes. Vom încerca împreună orice variantă care să te ajute să-ți recapeți mobilitatea și forța, cu răbdare, atenție și multă energie pozitivă."
+    },
+    "mihai": {
+      "name": "Dr. Cîrstea Mihai",
+      "role": "Specialist Fizioterapeut",
+      "specialization": "Expert Recuperare Atletica",
+      "description": "Am acumulat ani de experiență și am învățat că perseverența și încăpățânarea sunt cheia progresului. Datorită dedicării mele, am ajuns astăzi terapeutul care sunt, pregătit să ofer fiecărui pacient atenție, soluții personalizate și rezultate de durată."
+    },
+    "catalin": {
+      "name": "Dr. Radu ⁠Cătălin",
+      "role": "Specialist Fizioterapeut",
+      "specialization": "Expert Recuperare Atletica",
+      "description": "Cu peste 10 ani de experiență în domeniul recuperării medicale, recunoscut pentru profesionalism, sunt aici pentru problemele pacientilor, oferind programe personalizate."
     }
   },
   "services": {
@@ -90,6 +114,7 @@
   "contact": {
     "title": "Începeți călătoria de recuperare",
     "subtitle": "Contactați-ne astăzi pentru a programa o consultație personalizată",
+    "message": "Buna, doresc sa va contactez!",
     "phone": {
       "label": "Telefon",
       "value": "+40 (792) 904 835"

@@ -6,6 +6,14 @@ import { useTranslation } from "react-i18next";
 const Contact = () => {
   const { t } = useTranslation();
 
+const openWhatsApp = () => {
+  const phoneNumber = "40792904835";
+  const message = t("contact.message");
+
+  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+  window.open(url, "_blank");
+};
+
   return (
     <section className="py-20 px-4 bg-gradient-hero">
       <div className="container mx-auto">
@@ -80,6 +88,7 @@ const Contact = () => {
         <div className="text-center animate-fade-in" style={{ animationDelay: "0.4s" }}>
           <Button
             size="lg"
+            onClick={openWhatsApp}
             className="bg-white text-primary hover:bg-white/90 text-lg px-10 py-6 shadow-lg"
           >
             {t("contact.button")}

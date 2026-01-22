@@ -29,7 +29,7 @@
         "description": "State-of-the-art equipment and advanced procedures in a comfortable environment."
       }
     }
-    },
+  },
   "faq": {
     "title": "Frequently Asked Questions",
     "q1": "What conditions do we treat?",
@@ -57,6 +57,30 @@
       "role": "Sports Medicine Specialist",
       "specialization": "Athletic Recovery Expert",
       "description": "Dedicated to helping athletes return to peak performance through innovative treatments."
+    },
+    "barbu": {
+      "name": "Dr. Barbu Dominic",
+      "role": "Physiotherapy Specialist",
+      "specialization": "Athletic Recovery Expert",
+      "description": "Passionate about what I do, I work with care and dedication for each patient, using modern, tailored techniques in a relaxed and trustworthy environment to ensure effective recovery."
+    },
+    "ioana": {
+      "name": "Dr. Zamfirescu Ioana",
+      "role": "Kinesiotherapy Specialist",
+      "specialization": "Athletic Recovery Expert",
+      "description": "I am here to turn kinesiotherapy into confident steps toward success. Together, we will explore every possible approach to help you regain mobility and strength, with patience, attention, and plenty of positive energy."
+    },
+    "mihai": {
+      "name": "Dr. Cîrstea Mihai",
+      "role": "Physiotherapy Specialist",
+      "specialization": "Athletic Recovery Expert",
+      "description": "I have gained years of experience and learned that perseverance and determination are the keys to progress. Thanks to my dedication, I have become the therapist I am today—ready to offer each patient personal attention, customized solutions, and long-lasting results."
+    },
+    "catalin": {
+      "name": "Dr. Radu Cătălin",
+      "role": "Physiotherapy Specialist",
+      "specialization": "Athletic Recovery Expert",
+      "description": "With over 10 years of experience in medical recovery and recognized for my professionalism, I am here to address patients’ concerns by providing personalized treatment programs."
     }
   },
   "services": {
@@ -131,6 +155,7 @@
   },
   "contact": {
     "title": "Start Your Recovery Journey",
+    "message": "Hello, I would like to contact you",
     "subtitle": "Contact us today to schedule a personalized consultation",
     "phone": {
       "label": "Phone",
