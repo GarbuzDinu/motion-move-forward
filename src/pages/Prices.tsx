@@ -8,11 +8,11 @@ const servicesData = [
     duration: "20-50 min",
     price: "200 lei",
   },
-  {
-    service: "prices.services.medicalConsult",
-    duration: "20-50 min",
-    price: "300 lei",
-  },
+  // {
+  //   service: "prices.services.medicalConsult",
+  //   duration: "20-50 min",
+  //   price: "300 lei",
+  // },
   {
     service: "prices.services.physiotherapy",
     duration: "50 MINUTE",
@@ -40,26 +40,26 @@ const servicesData = [
 const orthoServicesData = [
   { service: "prices.ortho.consult", duration: "20/50m", price: "300 lei" },
   { service: "prices.ortho.reconsult", duration: "-", price: "150 lei" },
-  { service: "prices.ortho.upperSplint", duration: "-", price: "200" },
-  { service: "prices.ortho.lowerSplint", duration: "-", price: "250" },
-  { service: "prices.ortho.circularCast", duration: "-", price: "260" },
-  { service: "prices.ortho.elasticBandage", duration: "-", price: "100" },
-  { service: "prices.ortho.universalBandage", duration: "-", price: "200" },
-  { service: "prices.ortho.sutureRemoval", duration: "-", price: "200" },
-  { service: "prices.ortho.dressing", duration: "-", price: "100" },
-  { service: "prices.ortho.castRemoval", duration: "-", price: "150" },
+  { service: "prices.ortho.upperSplint", duration: "-", price: "200 lei" },
+  { service: "prices.ortho.lowerSplint", duration: "-", price: "250 lei" },
+  { service: "prices.ortho.circularCast", duration: "-", price: "260 lei" },
+  { service: "prices.ortho.elasticBandage", duration: "-", price: "100 lei" },
+  { service: "prices.ortho.universalBandage", duration: "-", price: "200 lei" },
+  { service: "prices.ortho.sutureRemoval", duration: "-", price: "200 lei" },
+  { service: "prices.ortho.dressing", duration: "-", price: "100 lei" },
+  { service: "prices.ortho.castRemoval", duration: "-", price: "150 lei" },
   {
     service: "prices.ortho.vascoInfiltration",
     duration: "-",
     price: "1700 lei",
   },
-  { service: "prices.ortho.prpInfiltration", duration: "-", price: "1700" },
+  { service: "prices.ortho.prpInfiltration", duration: "-", price: "1700 lei" },
 ];
 
 const subscriptionsData = [
   {
     title: "prices.subscriptions.sportMassage10",
-    price: "2.975 LEI",
+    price: "2.975 lei",
     note: "prices.subscriptions.discount15",
   },
   {
@@ -69,17 +69,17 @@ const subscriptionsData = [
   },
   {
     title: "prices.subscriptions.kinesiotherapy10",
-    price: "5.100 LEI",
+    price: "5.100 lei",
     note: "prices.subscriptions.discount15",
   },
   {
     title: "prices.subscriptions.cryosauna10",
-    price: "2.850 LEI",
+    price: "2.850 lei",
     note: "prices.subscriptions.discount5",
   },
   {
     title: "prices.subscriptions.fullCombo10",
-    price: "6.975 LEI",
+    price: "6.975 lei",
     note: "prices.subscriptions.discount22_5",
   },
   {

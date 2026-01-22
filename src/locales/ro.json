@@ -125,7 +125,7 @@
     },
     "location": {
       "label": "Locație",
-      "value": "Bulevardul Expoziției 101 (Mega Image)"
+      "value": "Bulevardul Expoziției 101 (Intrarea se face de pe strada Aviator Traian Vasile)"
     },
     "hours": {
       "label": "Program",
@@ -139,7 +139,7 @@
     "note": "Programarea se face cu cel puțin 12 ore înainte iar anularea cu minim 12 ore, altfel se consideră efectuată.",
     "services": {
       "title": "Servicii",
-      "evaluation": "EVALUARE",
+      "evaluation": "EVALUARE FIZIOTERAPEUT",
       "medicalConsult": "CONSULT MEDICAL",
       "physiotherapy": "ȘEDINȚĂ FIZIOTERAPIE",
       "kinesiotherapy": "ȘEDINȚĂ KINETOTERAPIE",

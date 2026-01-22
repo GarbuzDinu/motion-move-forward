@@ -116,7 +116,7 @@
     "description": "Rates for our medical, physiotherapy, kinesiotherapy services and special subscriptions.",
     "services": {
       "title": "Services",
-      "evaluation": "Evaluation",
+      "evaluation": "Physiotherapists Evaluation",
       "medicalConsult": "Medical Consultation",
       "physiotherapy": "Physiotherapy Session",
       "kinesiotherapy": "Kinesiotherapy Session",
@@ -169,7 +169,7 @@
     },
     "location": {
       "label": "Location",
-      "value": "Bulevardul Expoziției 101 (Mega Image)"
+      "value": "101 Expoziției Boulevard (Entrance is from Aviator Traian Vasile street)"
     },
     "hours": {
       "label": "Hours",
