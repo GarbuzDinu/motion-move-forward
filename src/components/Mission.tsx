@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Heart, Users, Award } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const Mission = () => {
   const { t } = useTranslation();
@@ -35,21 +36,27 @@ const Mission = () => {
               </div>
             </Card>
 
-            <Card className="p-6 border-l-4 border-l-secondary shadow-card hover:shadow-card-hover transition-shadow">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-lg bg-secondary/10">
-                  <Users className="h-6 w-6 text-secondary" />
+            <Link
+              to="/about"
+              onClick={() => window.scrollTo(0, 0)}
+              className="block"
+            >
+              <Card className="p-6 border-l-4 border-l-secondary shadow-card hover:shadow-card-hover transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="p-3 rounded-lg bg-secondary/10">
+                    <Users className="h-6 w-6 text-secondary" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold mb-2 text-card-foreground">
+                      {t("mission.cards.expertTeam.title")}
+                    </h3>
+                    <p className="text-muted-foreground">
+                      {t("mission.cards.expertTeam.description")}
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="text-xl font-semibold mb-2 text-card-foreground">
-                    {t("mission.cards.expertTeam.title")}
-                  </h3>
-                  <p className="text-muted-foreground">
-                    {t("mission.cards.expertTeam.description")}
-                  </p>
-                </div>
-              </div>
-            </Card>
+              </Card>
+            </Link>
 
             <Card className="p-6 border-l-4 border-l-accent shadow-card hover:shadow-card-hover transition-shadow">
               <div className="flex items-start gap-4">

@@ -141,11 +141,11 @@
       "prpInfiltration": "PRP Injection (platelet-rich plasma)"
     },
     "subscriptions": {
-      "sportMassage10": "10 Sessions Sports Massage*",
-      "kinesiotherapy10": "10 Sessions Kinesiotherapy + Physiotherapy*",
-      "cryosauna10": "10 Sessions Cryosauna*",
-      "fullCombo10": "10 Sessions Kinesiotherapy + Physiotherapy + Cryosauna*",
-      "hyperbaric10": "10 Sessions Hyperbaric Chamber*",
+      "sportMassage10": "10 Sessions Sports Massage",
+      "kinesiotherapy10": "10 Sessions Kinesiotherapy + Physiotherapy",
+      "cryosauna10": "10 Sessions Cryosauna",
+      "fullCombo10": "10 Sessions Kinesiotherapy + Physiotherapy + Cryosauna",
+      "hyperbaric10": "10 Sessions Hyperbaric Chamber",
       "discount15": "15% discount included",
       "discount5": "5% discount included",
       "discount22_5": "22.5% discount included",

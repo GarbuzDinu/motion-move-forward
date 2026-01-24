@@ -91,7 +91,7 @@
       "description": "Terapie avansată cu oxigen pentru accelerarea vindecării și reducerea inflamației"
     },
     "cryosauna": {
-      "title": "Cryosauna",
+      "title": "Criosauna",
       "description": "Crioterapie totală pentru ameliorarea durerii și recuperare rapidă"
     },
     "tecar": {
@@ -155,7 +155,7 @@
       "upperSplint": "Montare atelă membru superior",
       "lowerSplint": "Montare atelă membru inferior",
       "circularCast": "Montare ghips circular",
-      "elasticBandage": "Montare fâșă elastică",
+      "elasticBandage": "Montare fașă elastică",
       "universalBandage": "Montare bandaj universal",
       "sutureRemoval": "Ablatie fire sutură",
       "dressing": "Montare pansament",
@@ -164,12 +164,12 @@
       "prpInfiltration": "Infiltrație PRP (plasmă îmbogățită în trombocite)"
     },
     "subscriptions": {
-      "sportMassage10": "ABONAMENT 10 ȘEDINȚE MASAJ SPORTIV*",
-      "kinesiotherapy10": "ABONAMENT 10 ȘEDINȚE KINETOTERAPIE + FIZIOTERAPIE*",
-      "cryosauna10": "ABONAMENT 10 ȘEDINȚE CRIOSAUNĂ*",
-      "fullCombo10": "ABONAMENT 10 ȘEDINȚE KINETOTERAPIE + FIZIOTERAPIE + CRIOSAUNĂ*",
-      "hyperbaric10": "ABONAMENT 10 ȘEDINȚE CAMERA HIPERBARA*",
-      "fizeoterapie10": "ABONAMENT 10 ȘEDINȚE FIZIOTERAPIE*",
+      "sportMassage10": "ABONAMENT 10 ȘEDINȚE MASAJ SPORTIV",
+      "kinesiotherapy10": "ABONAMENT 10 ȘEDINȚE KINETOTERAPIE + FIZIOTERAPIE",
+      "cryosauna10": "ABONAMENT 10 ȘEDINȚE CRIOSAUNĂ",
+      "fullCombo10": "ABONAMENT 10 ȘEDINȚE KINETOTERAPIE + FIZIOTERAPIE + CRIOSAUNĂ",
+      "hyperbaric10": "ABONAMENT 10 ȘEDINȚE CAMERA HIPERBARA",
+      "fizeoterapie10": "ABONAMENT 10 ȘEDINȚE FIZIOTERAPIE",
       "discount15": "discount 15% inclus",
       "discount5": "discount 5% inclus",
       "discount22_5": "discount 22,5% inclus",
