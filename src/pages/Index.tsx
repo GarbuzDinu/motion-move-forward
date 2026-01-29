@@ -6,7 +6,7 @@ import Faq from "@/components/Faq";
 import Procedures from "@/components/Procedures";
 import ReactGA from "react-ga4";
 
-ReactGA.initialize("G-TP6JP3ZC89");
+ReactGA.initialize("G-XGZ47M2Q0V");
 
 
 const Index = () => {
