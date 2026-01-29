@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { Home, Info, Phone, CreditCard } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import Logo from "@/assets/logo.jpeg";
+import Logo from "@/assets/logo.jpg";
 
 export default function Menu() {
   const location = useLocation();
@@ -22,13 +22,13 @@ const menuItems = [
 
   return (
     <nav className="w-full border-b border-border bg-card/80 backdrop-blur supports-[backdrop-filter]:bg-card/60">
-      <div className="container mx-auto flex items-center justify-between py-4 px-4">
+      <div className="container mx-auto flex items-center justify-between py-0 px-0">
         {/* Left: Logo */}
         <Link to="/" className="flex items-center gap-3">
           <img
             src={Logo}
             alt="4Motion Recovery Logo"
-            className="h-12 max-h-12 w-auto object-contain"
+            className="h-20 max-h-20 w-auto object-contain"
           />
         </Link>
 

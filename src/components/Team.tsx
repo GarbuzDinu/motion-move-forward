@@ -105,7 +105,7 @@ const Team = () => {
                 <CardHeader className="text-center pb-4">
                   <div className="flex justify-center mb-4">
                     <div className="relative rounded-full p-[4px] bg-gradient-to-br from-primary to-secondary">
-                      <Avatar className="h-44 w-44 rounded-full border-4 border-card overflow-hidden">
+                      <Avatar className="h-40 w-40 rounded-full border-4 border-card overflow-hidden">
                         <AvatarImage
                           src={member.image}
                           alt={t(member.name)}
