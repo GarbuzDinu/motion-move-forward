@@ -4,6 +4,10 @@ import Mission from "@/components/Mission";
 import Contact from "@/components/Contact";
 import Faq from "@/components/Faq";
 import Procedures from "@/components/Procedures";
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-TP6JP3ZC89");
+
 
 const Index = () => {
   return (

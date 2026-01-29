@@ -10,6 +10,7 @@ import Menu from "./components/Menu";
 import Contact from "./pages/Contact";
 import ContactPage from "./pages/Contact";
 import Prices from "./pages/Prices";
+import Analytics from "./components/Analytics";
 
 
 const queryClient = new QueryClient();
@@ -20,6 +21,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+       <Analytics />
       <Menu />
         <Routes>
           <Route path="/" element={<Index />} />
@@ -27,7 +29,7 @@ const App = () => (
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/prices" element={<Prices />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
+          <Route path="*" element={<Index />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
